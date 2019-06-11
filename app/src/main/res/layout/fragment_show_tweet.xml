@@ -242,7 +242,7 @@
             android:textColor="@color/colorBlueDark"
             android:textStyle="bold"
             android:textSize="@dimen/text_heading"
-            android:text="@string/en_show_user_title"
+            android:text="@string/en_show_tweet_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

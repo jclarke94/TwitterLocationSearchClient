@@ -58,10 +58,10 @@ public class ViewTweetFragment extends Fragment {
             tvUserLang.setText(status.getUser().getLang());
             tvTweetCreated.setText(status.getCreated_at());
             tvTweetText.setText(status.getText());
-            if (status.getCoordinates().getCoordinates() != null && status.getCoordinates().getCoordinates().length > 0) {
+            if (status.getCoordinates() != null && status.getCoordinates().getCoordinates() != null && status.getCoordinates().getCoordinates().length > 0) {
                 tvTweetCoordinates.setText(status.getCoordinates().getCoordinates()[1] + ", " + status.getCoordinates().getCoordinates()[0]);
             }
-            if (status.getPlace().getFull_name() != null) {
+            if (status.getPlace() != null && status.getPlace().getFull_name() != null) {
                 tvTweetPlace.setText(status.getPlace().getFull_name());
             }
             tvTweetRetweets.setText(String.valueOf(status.getRetweet_count()));

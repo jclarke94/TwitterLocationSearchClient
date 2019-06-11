@@ -160,8 +160,6 @@ public class MainActivity extends FragmentActivity
         } else if (id == R.id.searchFragmentBtn) {
             SearchFragment searchFragment = new SearchFragment();
             voidBackstackAndNavigate(MapFragment.BACKSTACK_TAG, searchFragment, MapFragment.BACKSTACK_TAG);
-        } else if (id == R.id.loginFragmentBtn) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvLoginTitle"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:text="@string/en_login_title"
+        android:textSize="@dimen/text_title_large"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/colorBlue"
+        android:layout_marginVertical="@dimen/padding_xlarge"
+        android:layout_marginHorizontal="@dimen/padding_large"
+        android:text="@string/en_login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/etLoginEmail"
+        android:hint="@string/en_login_email"
+        android:layout_margin="@dimen/padding_large"
+        android:minHeight="@dimen/minimum_touch_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/etLoginPassword"
+        android:hint="@string/en_login_password"
+        android:layout_margin="@dimen/padding_large"
+        android:minHeight="@dimen/minimum_touch_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:elevation="@dimen/elevation_level"
+        android:background="@drawable/bg_submit_btn"
+        android:text="@string/en_login_submit"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:minHeight="@dimen/minimum_touch_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

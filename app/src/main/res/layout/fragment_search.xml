@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:padding="@dimen/padding_small"
+            android:background="@drawable/bg_search"
+            android:layout_margin="@dimen/padding_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:background="@null"
+                android:hint="@string/en_search_hint"
+                android:id="@+id/etSearchBar"
+                android:minHeight="@dimen/minimum_touch_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/ibSearchBtn"
+            android:elevation="@dimen/padding_medium"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:src="@android:drawable/ic_menu_search"
+            android:background="@drawable/bg_submit_btn"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/minimum_touch_area"
+            android:layout_height="@dimen/minimum_touch_area" />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSearchItems"
+        android:paddingHorizontal="@dimen/padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

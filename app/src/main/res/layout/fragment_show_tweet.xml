@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:textColor="@color/colorBlueDark"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_heading"
+            android:text="@string/en_show_user_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_name"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_screen_name"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserScreenName"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_description"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserdescription"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_location"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserLocation"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_followers"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserFollowers"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_following"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserFollowing"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_tweets"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserTweets"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_user_lang"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUserLang"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <!--tweets section-->
+
+        <TextView
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:textColor="@color/colorBlueDark"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_heading"
+            android:text="@string/en_show_user_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_created"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetCreatedAt"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_text"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetText"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_coordinates"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetCoordinates"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_place"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetPlace"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_retweeted"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetRetweeted"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/padding_small"
+                android:text="@string/en_show_tweet_favorite"
+                android:textColor="@color/colorBlue"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTweetFavorite"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginHorizontal="@dimen/padding_large"
+            android:background="@color/colorGreyLite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

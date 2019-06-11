@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Bell Android Assignment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Twitter Client App</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--ENG-->
+
+    <!--login fragment-->
+    <string name="en_login_title">LOGIN</string>
+    <string name="en_login_text">Login using your twitter email and password</string>
+    <string name="en_login_email">Email</string>
+    <string name="en_login_password">Password</string>
+    <string name="en_login_submit">Submit</string>
+    <string name="en_login_incorrect">Incorrect email or password. Please try again...</string>
+
+    <!--search fragment-->
+    <string name="en_search_hint">Search keyword or hashtag</string>
+    <string name="en_search_item_show_more">Show more data</string>
+    <string name="en_search_field_empty">Search field is empty. Please try again.</string>
+
+    <!--show tweet-->
+    <string name="en_show_user_title">USER</string>
+    <string name="en_show_user_name">User Name:</string>
+    <string name="en_show_user_screen_name">Screen Name:</string>
+    <string name="en_show_user_description">User Description:</string>
+    <string name="en_show_user_location">User Location:</string>
+    <string name="en_show_user_followers">Followers:</string>
+    <string name="en_show_user_following">Following:</string>
+    <string name="en_show_user_tweets">Tweets:</string>
+    <string name="en_show_user_lang">Language:</string>
+    <string name="en_show_tweet_title">TWEET</string>
+    <string name="en_show_tweet_created">Created At:</string>
+    <string name="en_show_tweet_text">Tweet Text:</string>
+    <string name="en_show_tweet_coordinates">Coordinates:</string>
+    <string name="en_show_tweet_place">Place:</string>
+    <string name="en_show_tweet_retweeted">Retweets:</string>
+    <string name="en_show_tweet_favorite">Likes:</string>
+
+    <!--FR-->
+
+    <!--login fragment-->
+    <string name="fr_login_title"></string>
+    <string name="fr_login_text"></string>
+    <string name="fr_login_email"></string>
+    <string name="fr_login_password"></string>
+    <string name="fr_login_submit"></string>
+    <string name="fr_login_incorrect"></string>
+
+    <!--search fragment-->
+    <string name="fr_search_hint"></string>
+    <string name="fr_search_item_show_more"></string>
+    <string name="fr_search_field_empty"></string>
+
+</resources>
